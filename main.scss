@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(25,25,25);
+}
+*{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p,h1,h2{
+    text-align: center;
+}
+img{
+    width:25rem;
+    height:25rem;
+    display: inline-block;
+}
+#main{
+    width: 75rem;
+    background-color: rgb(30,30,30);
+    height: 35rem;
+    margin-left:auto;
+    margin-right:auto;
+    padding: .5rem 1rem 1rem 1rem;
+}
+#holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+#info{
+    width:45rem;
+    height:28rem;
+    background-color: rgb(35,35,35);
+    padding: .5rem 1rem 1rem 1rem;
+}
+#abilities{
+    background-color: rgb(30,30,30);
+    width:20rem;
+    height:7rem;
+    display:inline-block;
+}
+#altinfo{
+    background-color: rgb(30,30,30);
+     width:20rem;
+    height:7rem;
+}
